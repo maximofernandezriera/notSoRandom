@@ -9,9 +9,10 @@
 ## El objetivo es determinar el color de la última canica que quedará en el sombrero, devolviendo "Black", "White" o "Unsure".
 
 Notamos que el bucle no es necesario cada acción reduce el número total de canicas en una unidad.
-    - Si se retiran dos canicas de diferentes colores, se añade una negra.
-    - Si se retiran dos del mismo color, se añade una blanca.
-    - Por lo tanto, si empiezas con un número par de canicas negras, siempre terminarás con una canica blanca, ya que cada acción elimina una canica negra o no altera el paridad de canicas negras.
-    - Si empiezas con un número impar de canicas negras, siempre terminarás con una canica negra.
-    - Finalmente vemos que el color de la última canica depende de la paridad del número de canicas negras. Si es par, la última canica será blanca, si es impar, será negra.
-    - Y la complejidad algorítmica es O(1), ya que el número de operaciones que realiza el algoritmo es constante, independientemente del número total de canicas.
+
+- Si se retiran dos canicas de diferentes colores, se añade una negra.
+- Si se retiran dos del mismo color, se añade una blanca.
+- Por lo tanto, si empiezas con un número par de canicas negras, siempre terminarás con una canica blanca, ya que cada acción elimina una canica negra o no altera el paridad de canicas negras.
+- Si empiezas con un número impar de canicas negras, siempre terminarás con una canica negra.
+- Finalmente vemos que el color de la última canica depende de la paridad del número de canicas negras. Si es par, la última canica será blanca, si es impar, será negra.
+- Y la complejidad algorítmica es O(1), ya que el número de operaciones que realiza el algoritmo es constante, independientemente del número total de canicas.
