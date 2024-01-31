@@ -1,4 +1,4 @@
-#https://www.codewars.com/kata/58ad2e9c0e3c08126000003f/solutions/java
+# https://www.codewars.com/kata/58ad2e9c0e3c08126000003f/solutions/java
 
 Debemos predecir el color de la última canica en un sombrero mágico. 
 Empezamos con un número de canicas negras (b) y blancas (w). 
